@@ -1,0 +1,149 @@
+@font-face {
+   font-family: "Lato";
+   src: url(../fonts/Lato-Regular.woff2) format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+   font-display: swap;
+   font-weight: 700;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+   font-display: swap;
+   font-weight: 900;
+   font-style: normal;
+}
+body {
+   font-family: "Lato";
+   font-style: normal;
+   font-weight: 400;
+}
+.paragraf-1__container,
+.paragraf-4 {
+   font-family: "Lato";
+   font-weight: 700;
+}
+.h__container {
+   font-family: "Lato";
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+   color: #1E212C;
+   margin-bottom: 40px;
+}
+[class*="__container"] {
+   max-width: 810px;
+   margin: 0 auto;
+}
+.img__container {
+   margin-bottom: 60px;
+}
+.paragraf-1__container {
+  font-size: 20px;
+  line-height: 150%;
+  color: #1E212C;
+  margin-bottom: 24px;
+}
+.paragraf-2-3__container {
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+  margin-bottom: 48px;
+}
+.paragraf-2 {
+   margin-bottom: 22px;
+}
+.paragraf-4__container {
+  background: url("../img/braces.jpg") 0 0 no-repeat;
+  margin-bottom: 48px;
+}
+.paragraf-4 {
+  font-size: 20px;
+  line-height: 150%;
+  color: #1E212C; 
+  max-width: 752px;
+  padding-left: 58px;
+}
+.paragraf-5__container {
+   font-size: 16px;
+   line-height: 160%;
+   color: #424551;
+   margin-bottom: 24px;
+}
+.ul__container {
+   font-size: 16px;
+   line-height: 160%;
+   color: #424551;
+   margin-bottom: 24px;
+}
+.check {
+   background: url("../img/check.jpg") left no-repeat;
+   padding-left: 32px;
+}
+.paragraf-6__container {
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+  margin-bottom: 92px;
+}
+[class*="__container-h"] {
+   height: 300px;
+   border-radius: 20px;
+   margin-bottom: 40px;
+}
+.image__container-h {
+   box-shadow: 10px 0 20px black;
+   background:url(../img/ice-cream.jpg) 0 0/ contain no-repeat rgb(131, 131, 142);
+   padding: 20px 20px 20px 250px;
+}
+.gradient {
+   background-color: aqua;
+}
+.gradient__container-h {
+   box-shadow: 20px 20px 10px grey;
+   background: #c0c4e4; 
+   background: -moz-radial-gradient(center, ellipse cover,  #c0c4e4 12%, #c0c4e4 12%, #8692da 42%, #c0c4e4 99%); 
+   background: -webkit-radial-gradient(center, ellipse cover,  #c0c4e4 12%,#c0c4e4 12%,#8692da 42%,#c0c4e4 99%); 
+   background: radial-gradient(ellipse at center,  #c0c4e4 12%,#c0c4e4 12%,#8692da 42%,#c0c4e4 99%); 
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0c4e4', endColorstr='#c0c4e4',GradientType=1 ); 
+}
+.repet__container-h {
+   box-shadow: 20px 20px 20px 10px blueviolet;
+   background: url(../img/picter_smile.jpg) repeat-x 0 0/100px 100px pink;
+   padding: 100px 20px 20px 20px;
+}
+.position__container-h {
+   box-shadow: 20px 20px 5px 5px pink, inset 10px 10px 5px 2px palevioletred;
+   background: url("../img/poni.jpg")no-repeat right bottom/auto 200px, url(../img/flowers.jpg)no-repeat center/810px 100px, url("../img/smile2.jpg")no-repeat 0 0/200px,rgb(162, 111, 209);
+   text-align: center;
+   padding: 50px 50px 50px 50px;
+   text-transform: uppercase;
+}
+.attachment__container-h {
+   box-shadow: 20px 20px 5px 4px rgb(219, 165, 219);
+   background: url("../img/flowers.jpg") no-repeat 0 0/contain fixed, aqua;
+}
+.size__container-h {
+   box-shadow: 20px 20px 5px 10px aquamarine,inset 20px 20px 10px 5px grey;
+   background: url("../img/woman.jpg") center no-repeat scroll, blue;
+}
+.buttom__ {
+   margin-left: 700px ;
+   display: inline-block;
+   background-color: aqua;
+   padding: 20px;
+   color: #fff;
+   border-radius: 20px;
+   box-shadow: 0 5px 0 #000;
+   transition: all 0.3s ease 0s;
+}
+.buttom__:hover {
+   margin-top: 3px;
+   box-shadow: 0 2px 0 #000;
+}
